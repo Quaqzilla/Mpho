@@ -43,8 +43,9 @@ export function Home() {
             </div>
 
 
-        <div className="bg-black h-screen">
-            <h1>text</h1>
+        <div className="bg-black rounded-3xl h-screen mx-7">
+            <img src="" alt="drum" />
+            <p></p>
         </div>
 
         </div>
