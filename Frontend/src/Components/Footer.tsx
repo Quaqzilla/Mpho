@@ -3,7 +3,7 @@ import { Facebook, Instagram, Twitter } from "lucide-react";
 
 export function Footer(){
     return(
-        <div className="bg-gray-900 h-60 flex flex-col justify-evenly items-center p-6 mt-5 md:flex-row md:items-start">
+        <div className="bg-gray-900 flex pb-12 flex-col justify-evenly items-center p-6 mt-5 md:flex-row md:items-start">
             <div className="flex flex-col gap-2">
                  <h1 className="text-2xl md:text-4xl font-bold text-center">
                     Batjha Ba <span className="text-orange-400">Afrika</span> 
@@ -22,6 +22,7 @@ export function Footer(){
                     <a href="">Services</a>
                     <a href="">Work</a>
                     <a href="">Gallery</a>
+                    <a href="">Contact Us</a>
                 </ul>
             </div>
 
