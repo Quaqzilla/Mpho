@@ -13,7 +13,7 @@ export function NavBar() {
     }, []);
 
     return (
-        <div className={`fixed top-0 left-0 text-white w-screen flex  p-4 justify-between md:justify-evenly items-center  z-50 transition-colors duration-300 ${scrolled ? 'bg-white text-black shadow-md' : 'bg-transparent'}`}>
+        <div className={`fixed top-0 left-0 text-white w-full flex  p-4 justify-between md:justify-evenly items-center  z-50 transition-colors duration-300 ${scrolled ? 'bg-black text-black shadow-md' : 'bg-transparent'}`}>
 
             <img src="" alt="business-logo" className="h-10" />
 
@@ -27,7 +27,7 @@ export function NavBar() {
                 ☰
             </button>
 
-            <button className="hidden md:block px-8 py-3 font-medium bg-black hover:bg-gray-900 transition-colors hover:text-white cursor-pointer rounded-xl">
+            <button className="hidden md:block px-8 py-3 font-medium bg-orange-500 hover:bg-orange-600 transition-colors hover:text-white cursor-pointer rounded-xl">
                 Enquire
             </button>
         </div>
