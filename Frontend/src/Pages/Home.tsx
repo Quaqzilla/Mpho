@@ -6,6 +6,7 @@ import Autoplay from "embla-carousel-autoplay";
 import React from "react";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
+import { Footer } from "@/Components/Footer";
 
 export function Home() {
     const autoplay = React.useRef(
@@ -145,6 +146,8 @@ export function Home() {
                     Request Quotation
                 </button>
             </section>
+
+            <Footer/>
 
         </div>
     )
